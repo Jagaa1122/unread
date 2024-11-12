@@ -27,7 +27,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 250px;
+  
 }
 .menu-icon svg {
   width: 30px;
@@ -547,4 +547,19 @@ header {
 }
 .description-colum2 {
   padding-top: 50px;
+}
+.footer-icons svg {
+  width: 35px;
+  height: 35px;
+  fill:rgb(91, 91, 91);
+}
+.footer-icons {
+  background-color: #000;
+  display: flex;
+  gap: 170px;
+  justify-content: center;
+ padding: 60px;
+}
+.footer-icons .facebook svg:hover {
+  fill:rgb(60, 133, 243) ;
 }
