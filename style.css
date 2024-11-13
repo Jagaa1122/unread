@@ -501,6 +501,10 @@ header {
   background-color: #3399ff;
   box-shadow: 0 0 0 12px #3399ff7b;
 }
+.contact-button:hover {
+  transform: translateX(5px);
+  transition: all 0.5s;
+}
 .contact-button-arrow svg {
   fill: #fff;
 }
@@ -541,8 +545,9 @@ header {
   font-size: medium;
   margin-top: 30px;
 }
-.description p:hover {
+.description-colum2 dt:hover {
   transform: translateX(5px);
+  color: #ffffff;
 }
 .description .bulan dt:hover {
   transform: translateX(5px);
@@ -557,8 +562,15 @@ header {
 .description-colum2 {
   padding-top: 50px;
 }
+.description-colum2 dt {
+  transition: all 0.5s;
+}
 .description .white {
   color: #ffffff;
+}
+.description .white:hover {
+  transform: translateX(5px);
+  transition: all 0.5s;
 }
 .footer-icons svg {
   width: 40px;
