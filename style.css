@@ -482,9 +482,9 @@ header {
   color: #fff;
   background-color: #000;
   margin-top: -5.5rem;
-  padding: 13rem 15rem 7.5rem 20rem;
+  padding: 13rem 7rem 7.5rem 7rem;
   display: flex;
-  gap: 200px;
+justify-content: space-between;
 }
 .footer-left {
   width: 400px;
@@ -571,6 +571,7 @@ header {
 }
 .description dt {
   margin-top: 20px;
+  text-wrap: nowrap;
 }
 .description-colum2 {
   padding-top: 50px;
