@@ -27,7 +27,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 .menu-icon svg {
   width: 30px;
@@ -470,7 +469,7 @@ header {
   color: #fff;
   background-color: #000;
   margin-top: -5.5rem;
-  padding: 13rem 100px 7.5rem 100px;
+  padding: 13rem 15rem 7.5rem 20rem;
   display: flex;
   gap: 200px;
 }
@@ -542,24 +541,52 @@ header {
   font-size: medium;
   margin-top: 30px;
 }
+.description p:hover {
+  transform: translateX(5px);
+}
+.description .bulan dt:hover {
+  transform: translateX(5px);
+  color: #ffffff;
+}
+.description .bulan dt {
+  transition: all 0.5s;
+}
 .description dt {
   margin-top: 20px;
 }
 .description-colum2 {
   padding-top: 50px;
 }
+.description .white {
+  color: #ffffff;
+}
 .footer-icons svg {
-  width: 35px;
-  height: 35px;
-  fill:rgb(91, 91, 91);
+  width: 40px;
+  height: 40px;
+  fill: rgb(91, 91, 91);
 }
 .footer-icons {
   background-color: #000;
   display: flex;
   gap: 170px;
   justify-content: center;
- padding: 60px;
+  padding: 60px;
 }
 .footer-icons .facebook svg:hover {
-  fill:rgb(60, 133, 243) ;
+  fill: rgb(60, 133, 243);
+}
+.footer-icons .twitter svg:hover {
+  fill: rgb(67, 185, 253);
+}
+.footer-icons .insta svg:hover {
+  fill: rgb(236, 38, 213);
+}
+.footer-icons .in svg:hover {
+  fill: rgb(13, 138, 248);
+}
+.footer-icons .youtube svg:hover {
+  fill: rgb(247, 8, 8);
+}
+.footer-icons .sound svg:hover {
+  fill: rgb(250, 126, 3);
 }
