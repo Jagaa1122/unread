@@ -338,6 +338,19 @@ header {
   color: #ffffff;
   backdrop-filter: blur(10px);
 }
+.stickytext p {
+  color: #8f8e8e;
+}
+.stickytext .minut {
+  background-color: rgba(126, 126, 126, 0.5);
+  padding: 8px;
+  font-size: smaller;
+  color: #ffffff;
+  position: absolute;
+  right: 15px;
+  bottom: 65px;
+  border-radius: 9px;
+}
 .weeks {
   max-width: 1185px;
   display: flex;
